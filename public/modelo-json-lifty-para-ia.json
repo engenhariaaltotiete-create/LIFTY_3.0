@@ -1,0 +1,78 @@
+{
+  "app": "LIFTY",
+  "kind": "workout",
+  "formatVersion": 4,
+  "exportedAt": "2026-09-04T00:00:00.000Z",
+  "workout": {
+    "name": "MODELO IA - Treino Híbrido LIFTY",
+    "archived": false,
+    "blocks": [
+      {
+        "id": "c90cba22-cd4a-4288-a816-0bbbd43a8ce8",
+        "name": "Força",
+        "model": "resistance",
+        "order": 0,
+        "exercises": [
+          {
+            "id": "87ea70c7-9dca-4e17-b76f-55004b833f23",
+            "exerciseId": "modelo-supino-reto-barra",
+            "exerciseName": "Supino reto com barra",
+            "kind": "resistance",
+            "order": 0,
+            "sets": 3,
+            "repsMin": 8,
+            "repsMax": 12
+          }
+        ]
+      },
+      {
+        "id": "92a8793c-f317-442c-8f4a-b9c8e1fb7f5b",
+        "name": "Cardio",
+        "model": "cardio",
+        "order": 1,
+        "exercises": [
+          {
+            "id": "307a5e7d-6141-4c41-954f-36f91b02a058",
+            "exerciseId": "modelo-bike-ergometrica",
+            "exerciseName": "Bicicleta ergométrica",
+            "kind": "cardio",
+            "order": 0,
+            "targetMinutes": 20,
+            "targetDistanceKm": 8
+          }
+        ]
+      },
+      {
+        "id": "c50c2374-b84b-4789-b143-f1981cbee612",
+        "name": "HIIT Final",
+        "model": "interval",
+        "order": 2,
+        "intervalMode": "custom",
+        "rounds": 4,
+        "roundRestSeconds": 60,
+        "countdownSeconds": 3,
+        "exercises": [
+          {
+            "id": "8d044655-ecea-4a0b-bdd5-e3d005c7b27f",
+            "exerciseId": "modelo-polichinelo",
+            "exerciseName": "Polichinelo",
+            "kind": "bodyweight",
+            "order": 0,
+            "workSeconds": 30,
+            "restSeconds": 15
+          },
+          {
+            "id": "2cbdd427-d835-4dfe-9fc3-abfac0d5f572",
+            "exerciseId": "modelo-agachamento-peso-corporal",
+            "exerciseName": "Agachamento com peso corporal",
+            "kind": "bodyweight",
+            "order": 1,
+            "workSeconds": 30,
+            "restSeconds": 0
+          }
+        ]
+      }
+    ],
+    "formatVersion": 4
+  }
+}
